@@ -27,16 +27,15 @@ func main() {
 	w.WriteString("	cout << \"请给出一个不多于5位的整数:\";\r\n")
 	w.WriteString("	int x;\r\n")
 	w.WriteString("	cin >> x;\r\n")
-	w.WriteString("	switch (x)\r\n{\r\n")
+	w.WriteString("	switch (x)\r\n\t{\r\n")
 
 	for i := 0; i < 100000; i++ {
 		i_str := strconv.Itoa(i)
 		w.WriteString("\tcase " + i_str + ":\r\n")
 		write("是 "+strconv.Itoa(len(i_str))+" 位数", w)
 		for j := 0; j < len(i_str); j++ {
-			write(string(unit[j])+"位是 "+string([]rune(i_str)[j]), w)
+			write(string(unit[j])+"位是 "+string([]rune(i_str)[len(i_str)-j-1]), w)
 		}
-		// write(string(unit[0]), w)
 		w.WriteString("\t\tcout << \"" + "倒过来是 ")
 		for j := 0; j < len(i_str); j++ {
 			w.WriteString(string([]rune(i_str)[len(i_str)-j-1]))
