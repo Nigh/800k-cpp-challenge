@@ -8,6 +8,12 @@
 
 `go run generator.go`
 
+### use Unix shell script 使用 Unix 脚本
+
+```sh
+sh ./sh/generate.sh > main.cpp
+```
+
 ## compile 编译Cpp代码
 
 `g++ -m64 main.cpp`
