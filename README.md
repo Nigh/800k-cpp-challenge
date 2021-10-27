@@ -4,29 +4,15 @@
 
 800k lines cpp 编译 challenge
 
-## generate 生成Cpp代码
-
-`go run generator.go`
-
-### use Unix shell script 使用 Unix 脚本
-
-```sh
-sh ./sh/generate.sh > main.cpp
-```
-
-## compile 编译Cpp代码
-
-`g++ -m64 main.cpp`
-
-## binary test 二进制测试
-
-`./a.out`
+## Language 语言
+- [Golang](golang)
+- [Unix Shell](sh)
 
 ## pregenerate code 预生成代码
 
-For challengers without a `golang` environment, the `main.7z` in the project is the generated cpp code.
+For challengers without generating environment, the `main.7z` in the project is the generated cpp code.
 
-对于没有`golang`环境的挑战者，项目中的`main.7z`便是已经生成好的cpp代码。
+对于没有生成代码环境的挑战者，项目中的`main.7z`便是已经生成好的cpp代码。
 
 ## Story 缘起
 
