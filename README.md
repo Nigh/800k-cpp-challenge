@@ -6,6 +6,7 @@
 
 ## Language 语言
 - [Golang](golang)
+- [Unix Shell](sh)
 
 ## pregenerate code 预生成代码
 
