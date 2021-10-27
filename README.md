@@ -7,6 +7,9 @@
 ## Language 语言
 - [Golang](golang)
 - [Unix Shell](sh)
+- [Rust](rust)
+- [Haskell](haskell)
+- [F#](F#)
 
 ## pregenerate code 预生成代码
 
